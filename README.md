@@ -58,7 +58,7 @@ buttons.forEach(button =>{                          // acts on forEach <button> 
   <i class="fas fa-fire-alt"> </br> Fire </i>
 ```
 
-3. Principle of creating an element in JavaScript, and then referencing to HTML by document.getElementById, and then appending the JavaScript element to the HTML element
+3. Principle of creating an element in JavaScript, and then referencing to HTML by document.getElementById, and then appending the JavaScript element to the HTML element. Example:
 ```
 let para = document.createElement('p');
 para.textContent = 'Hey, I\'m red.';
@@ -67,7 +67,7 @@ document.getElementById('container').appendChild(para);
 ```
 
 ### What could be improved
-[ ] How to change 'leaf' to 'earth' on output. 
-[ ] How to add a time delay effect for the element image and the score results. 
-[ ] Need better understanding and more practice with classList.add("active") and classList.
+- [ ] How to change 'leaf' to 'earth' on output. 
+- [ ] How to add a time delay effect for the element image and the score results. 
+- [ ] Need better understanding and more practice with classList.add("active") and classList.
 
