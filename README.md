@@ -4,11 +4,13 @@ Part I: https://www.theodinproject.com/paths/foundations/courses/foundations/les
 Part II: https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/dom-manipulation#dom-methods
 
 ## Purpose: 
-* Made a simple implementation of grade-school classic “rock paper scissors”. 
+* Created an implementation of grade-school classic “rock paper scissors”. 
 
 
 ### Technologies: 
 * JavaScript
+* HTML
+* CSS
 
 
 ### Tools
@@ -22,7 +24,7 @@ Part II: https://www.theodinproject.com/paths/foundations/courses/foundations/le
 
 ### Links 
 Codepen - solution link: <br>
-https://codepen.io/iVuDang/pen/zYwavJY
+https://codepen.io/iVuDang/full/zYwavJY
 
 GitHub - deployment link: <br>
 https://ivudang.github.io/The-Odin-Project-Rock-Paper-Scissors/
@@ -47,7 +49,7 @@ buttons.forEach(button =>{                          // acts on forEach <button> 
 })
 ```
 
-* Can import and use icons from script to kit.fontawesome, and using <i class=""> to reference to the icon ref.  
+* Can import and use icons from script to kit.fontawesome, and using i class to reference to the icon ref.  
 ``` 
   <script src="https://kit.fontawesome.com/4d18f3cb78.js" crossorigin="anonymous"></script>
     
