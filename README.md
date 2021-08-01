@@ -1,5 +1,6 @@
 # Project: Rock Paper Scissors (Part II)
 Part I: https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/rock-paper-scissors
+<br>
 Part II: https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/dom-manipulation#dom-methods
 
 ## Purpose: 
@@ -20,22 +21,22 @@ Part II: https://www.theodinproject.com/paths/foundations/courses/foundations/le
 
 
 ### Links 
-Codepen - solution link:
+Codepen - solution link: <br>
 https://codepen.io/iVuDang/pen/zYwavJY
 
-GitHub - deployment link: 
-
+GitHub - deployment link: <br>
+https://ivudang.github.io/The-Odin-Project-Rock-Paper-Scissors/
 <br />
 
 ## Summary
 
 ### What I learned
-####Part I
+#### Part I
 * Function names are a verb. Keep concise and descriptive e.g. getS, calcE, createX, checkY. 
 * One function - one action. Write a specific function for each specific purpose (segregrate). 
 * Test each coding line before going onto the next e.g. (console.log)
 
-####Part II
+#### Part II
 * Hardest problem overcame in this exercise was to figure out how to register the HTML buttons to our JavaScript function. 
 ```
 // B1. Registers the click input to execute the function 'playRound'. References our const 'buttons'. 
