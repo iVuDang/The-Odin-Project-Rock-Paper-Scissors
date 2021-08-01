@@ -4,7 +4,7 @@ Part I: https://www.theodinproject.com/paths/foundations/courses/foundations/les
 Part II: https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/dom-manipulation#dom-methods
 
 ## Purpose: 
-* Created an implementation of grade-school classic “rock paper scissors”. 
+* Create an implementation of grade-school classic “rock paper scissors”. 
 
 
 ### Technologies: 
@@ -19,7 +19,7 @@ Part II: https://www.theodinproject.com/paths/foundations/courses/foundations/le
 
 
 ### Outcome
-* I wrote a simple JavaScript program to take an input (rock, paper, or scissors), and output whether we won vs. a randomized computer result. 
+* I created a JavaScript program to take an input (rock, paper, or scissors), and output whether we won vs. a randomized computer result, with a graphical user interface. 
 
 
 ### Links 
@@ -39,7 +39,7 @@ https://ivudang.github.io/The-Odin-Project-Rock-Paper-Scissors/
 * Test each coding line before going onto the next e.g. (console.log)
 
 #### Part II
-* Hardest problem overcame in this exercise was to figure out how to register the HTML buttons to our JavaScript function. 
+* Hardest problem I overcame in this exercise was figuring out how to register the HTML buttons to our JavaScript function: 
 ```
 // B1. Registers the click input to execute the function 'playRound'. References our const 'buttons'. 
 buttons.forEach(button =>{                          // acts on forEach <button> in html
@@ -49,14 +49,14 @@ buttons.forEach(button =>{                          // acts on forEach <button> 
 })
 ```
 
-* Can import and use icons from script to kit.fontawesome, and using i class to reference to the icon ref.  
+* Learned about using premade icons from kit.fontawesome, and using i class to reference to that icon.   
 ``` 
   <script src="https://kit.fontawesome.com/4d18f3cb78.js" crossorigin="anonymous"></script>
     
   <i class="fas fa-fire-alt"> </br> Fire </i>
 ```
 
-* Principle of must create the element in JavaScript, and then reference to HTML by document.getElementById, and then append the JavaScript element to the HTML element
+* Principle of creating an element in JavaScript, and then referencing to HTML by document.getElementById, and then appending the JavaScript element to the HTML element
 ```
 let para = document.createElement('p');
 para.textContent = 'Hey, I\'m red.';
