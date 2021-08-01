@@ -1,0 +1,88 @@
+<!doctype html>
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="iVuDang - The Odin Project - Rock Paper Scissors"> 
+  <meta name="keywords" content="iVuDang, The Odin Project, Rock Paper Scissors">
+  <metaname="author" content="iVuDang">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+  <title>iVuDang - Fire, Earth, Water </title>
+
+  <meta property='og:title' content='iVuDang - Rock Paper Scissors'/>
+  <meta property='og:image' content='https://i.imgur.com/1vjHzwW.jpeg'/>
+  <meta property='og:description' content='iVuDang - The Odin Project - Rock Paper Scissors'/>
+  <meta property='og:url' content='https://github.com/iVuDang'/>
+  <meta property="og:type" content="website" />  
+  
+  <!-- Link to CSS file --> 
+  <link href="styles.css" rel="stylesheet">
+    
+  <!-- Script for Icons -->
+  <script src="https://kit.fontawesome.com/4d18f3cb78.js" crossorigin="anonymous"></script>
+</head>
+  
+  
+<body>
+<div class="grid-container"> 
+  
+  <div class="grid-row-1-col-1">
+      <div id="result-playerscore"></div>
+  </div>
+  
+  <div class="grid-row-1-col-2">
+      <div id="result"></div>
+  </div>
+  
+  <div class="grid-row-1-col-3">
+      <div id="result-computerscore"></div>
+  </div>
+  
+  
+  <div class="grid-row-2-col-1">  
+    <div id="image-playerelement">
+      <i id="player-element"> </i>
+    </div>
+  </div>
+  
+  <div class="grid-row-2-col-3">
+    <div id="image-computerelement">
+      <i id="computer-element"> </i> 
+    </div>
+  </div>
+  
+  
+  <!-- Button Section --> 
+  <div class = "grid-row-3-col-1">
+    <button class="element-button" id="fire-button" value="fire">  <!-- needs to have value attribute for playRound(button.value) to ref -->
+      <i class="fas fa-fire-alt"> </br> Fire </i> </button> 
+  </div>
+
+  <div class = "grid-row-3-col-2">
+    <button class="element-button" id="earth-button" value="leaf"> 
+      <i class="fas fa-leaf"> <br> Earth </i> </button>
+  </div>
+
+  <div class = "grid-row-3-col-3">
+    <button class="element-button" id="water-button" value="water"> 
+      <i class="fas fa-water"> </br> Water </i> </button>
+  </div> 
+  <!-- END Button Section --> 
+  
+  
+  <div class="grid-row-4">
+    <!-- Credits Section --> 
+      <a id="iVuDang_YouTube_a" target="_blank" href="https://www.youtube.com/user/iVuDang"> 
+        Created by <b> iVuDang </b>
+      </a>
+    <!-- END Credits Section -->  
+  </div>
+  <!-- END <div class="grid-row-3"> -->
+</div> 
+<!-- END <div class="grid-container"> -->
+
+<!-- Link to JavaScript file --> 
+<script src="script.js"></script>
+</body>
+</html>

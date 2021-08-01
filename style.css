@@ -1,0 +1,206 @@
+/* START - Grid Container */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 2fr 1fr 1fr; 
+    
+    gap: 15px; /* spacing between the rows */ 
+    
+    margin: auto; /* centers our google container */
+    margin-top: 50px; /* adds spacing from top */
+    width: 450px; /* master width - determines all elements within */
+  
+    padding: 20px; /* spacing from border edge */ 
+    
+    border: 2px solid black;
+    filter: drop-shadow(4px 4px 20px black); 
+  }
+  
+      .grid-row-1-col-1{
+        grid-column: 1 / 2;
+        grid-row: 1;
+        
+        display: flex;            /* set flexbox display, justify-content and align-items are flexbox properties */
+        justify-content: center;  /* centered horizontally - on x axis*/
+        align-items: center;      /* centered vertically - on y axis*/
+      }
+  
+      .grid-row-1-col-2{
+        grid-column: 2 / 3;
+        grid-row: 1 / 3;
+        
+        display: flex;            /* set flexbox display, justify-content and align-items are flexbox properties */
+        justify-content: center;  /* centered horizontally - on x axis*/
+        align-items: center;      /* centered vertically - on y axis*/
+      }
+  
+      .grid-row-1-col-3{
+        grid-column: 3 / 4;
+        grid-row: 1;
+  
+        display: flex;            /* set flexbox display, justify-content and align-items are flexbox properties */
+        justify-content: center;  /* centered horizontally - on x axis*/
+        align-items: center;      /* centered vertically - on y axis*/
+  
+      }
+  
+  
+      .grid-row-2-col-1{
+        grid-column: 1 / 2;
+        grid-row: 2;
+  
+        display: flex;            /* set flexbox display, justify-content and align-items are flexbox properties */
+        justify-content: center;  /* centered horizontally - on x axis*/
+        align-items: center;      /* centered vertically - on y axis*/
+      }
+  
+      .grid-row-2-col-3{
+        grid-column: 3 / 4;
+        grid-row: 2; 
+  
+        display: flex;            /* set flexbox display, justify-content and align-items are flexbox properties */
+        justify-content: center;  /* centered horizontally - on x axis*/
+        align-items: center;      /* centered vertically - on y axis*/
+      }
+  
+  
+      .grid-row-3-col-1{
+        grid-column: 1 / 2;
+        grid-row: 3;
+        
+        display: flex;            /* set flexbox display, justify-content and align-items are flexbox properties */
+        justify-content: center;  /* centered horizontally - on x axis*/
+        align-items: center;      /* centered vertically - on y axis*/
+      }
+  
+      .grid-row-3-col-2{
+        grid-column: 2 / 3;
+        grid-row: 3;
+        
+        display: flex;            /* set flexbox display, justify-content and align-items are flexbox properties */
+        justify-content: center;  /* centered horizontally - on x axis*/
+        align-items: center;      /* centered vertically - on y axis*/
+      }
+  
+      .grid-row-3-col-3{
+        grid-column: 3 / 4;
+        grid-row: 3;
+  
+        display: flex;            /* set flexbox display, justify-content and align-items are flexbox properties */
+        justify-content: center;  /* centered horizontally - on x axis*/
+        align-items: center;      /* centered vertically - on y axis*/
+      }
+  
+  
+      .grid-row-4 {
+        grid-column: 1 / 4;
+        grid-row: 4;
+        
+        display: flex;            /* set flexbox display, justify-content and align-items are flexbox properties */
+        justify-content: center;  /* centered horizontally - on x axis*/
+        align-items: center;      /* centered vertically - on y axis*/
+      }
+  
+  /* END - Grid Container */
+  
+  
+  /* START - Buttons */
+  .element-button{
+    width: 100px;
+    height: 50px;
+    font-size: 16px; 
+    
+    border-radius: 10px;
+  }
+  
+    #fire-button:hover {
+      transition: all .5s;
+      transition-timing-function: ease-in-out;
+  
+      filter: drop-shadow(4px 4px 20px OrangeRed); 
+      -webkit-box-shadow: 0 0 10px 1px Red inset;     /*box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit; */
+    }
+  
+    #earth-button:hover {
+      transition: all .5s;
+      transition-timing-function: ease-in-out;
+  
+      filter: drop-shadow(4px 4px 20px Green);  
+      -webkit-box-shadow: 0 0 10px 1px SaddleBrown inset;     /*box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit; */
+    }
+      
+    #water-button:hover {
+      transition: all .5s;
+      transition-timing-function: ease-in-out;
+  
+      filter: drop-shadow(4px 4px 20px Aquamarine);
+      -webkit-box-shadow: 0 0 10px 1px blue inset;     /*box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit; */ 
+    }
+  
+  /* END - Buttons */
+  
+  
+  /* START - Selection Images */
+  #player-element{
+    font-size: 50px;    /*use font-size because icon is a font type */ 
+    filter: drop-shadow(4px 4px 20px black);
+  }
+  
+  #computer-element{
+    font-size: 50px;    /*use font-size because icon is a font type */ 
+    color: dimgray; 
+  }
+  /* END - Selection Images */
+  
+  
+  /* START - Score Results */
+  #result-playerscore{
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  #result-computerscore{
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  #result{
+    text-align: center;
+  }
+  /* END- Score Results */
+  
+  
+  /* START - BACKGROUND */
+  body {
+    background: url(https://i.imgur.com/1vjHzwW.jpeg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+  }
+   
+  
+  .grid-container{ 
+    background-color: oldlace; 
+    border-radius: 10px;
+    opacity: 0.95; 
+  }
+  
+  #iVuDang_YouTube_a{
+    color: dimgray; 
+    text-decoration: none;
+  }
+      #iVuDang_YouTube_a:active,
+      #iVuDang_YouTube_a:hover{
+        color: black; 
+        text-decoration: none;
+        filter: drop-shadow(4px 4px 20px darkgoldenrod);    
+        
+        transition: all .5s;
+        transition-timing-function: ease-in-out;
+      }
+  
+  /* END - BACKGROUND */ 
+  
+  
+  
