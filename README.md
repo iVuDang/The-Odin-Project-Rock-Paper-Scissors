@@ -20,16 +20,15 @@ Part II: https://www.theodinproject.com/paths/foundations/courses/foundations/le
 * GitHub
 
 
-### Outcome
+### Outcome :white_check_mark:
 * I created a JavaScript program to take an input (rock, paper, or scissors), and output whether we won vs. a randomized computer result, with a graphical user interface. 
 
+| Website | Link | 
+| ------------- | ------------- | 
+| CodePen demo | https://codepen.io/iVuDang/full/zYwavJY | 
+| GitHub demo | https://ivudang.github.io/The-Odin-Project-Rock-Paper-Scissors/ | 
 
-### Links 
-Codepen - solution link: :white_check_mark: <br>
-https://codepen.io/iVuDang/full/zYwavJY
 
-GitHub - deployment link: :white_check_mark: <br>
-https://ivudang.github.io/The-Odin-Project-Rock-Paper-Scissors/
 <br />
 
 ## Summary
