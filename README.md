@@ -25,10 +25,10 @@ Part II: https://www.theodinproject.com/paths/foundations/courses/foundations/le
 
 
 ### Links 
-Codepen - solution link: <br>
+Codepen - solution link: :white_check_mark: <br>
 https://codepen.io/iVuDang/full/zYwavJY
 
-GitHub - deployment link: <br>
+GitHub - deployment link: :white_check_mark: <br>
 https://ivudang.github.io/The-Odin-Project-Rock-Paper-Scissors/
 <br />
 
