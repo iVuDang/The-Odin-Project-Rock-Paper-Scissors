@@ -6,7 +6,7 @@ Part I: https://www.theodinproject.com/paths/foundations/courses/foundations/les
 Part II: https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/dom-manipulation#dom-methods
 
 ## Purpose: 
-* To create an implementation of grade-school classic “rock paper scissors”. 
+To create an implementation of grade-school classic “rock paper scissors”. 
 
 
 ### Technologies: 
