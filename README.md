@@ -36,7 +36,7 @@ I created a JavaScript program to take an input (rock, paper, or scissors), and 
 ### What I learned
 #### Part I
 1. Function names are a verb. Keep concise and descriptive e.g. getS, calcE, createX, checkY. 
-2. One function - one action. Write a specific function for each specific purpose (segregrate). 
+2. **One function - one action**. Write a specific function for each specific purpose (segregrate). 
 3. Test each coding line before going onto the next e.g. (console.log)
 
 #### Part II
