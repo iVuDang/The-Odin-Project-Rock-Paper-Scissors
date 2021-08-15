@@ -8,7 +8,7 @@ Part II: https://www.theodinproject.com/paths/foundations/courses/foundations/le
 ## Purpose: 
 To create an implementation of grade-school classic “rock paper scissors”. 
 
-### Preview:
+## Preview:
 <img src="https://github.com/iVuDang/The-Odin-Project-Rock-Paper-Scissors/blob/2efed9f19d562d406820e866c03bfbf5e1cda25a/RockPaperScissors-preview.png" width=50% height=50%>
 
 ### Technologies: 
