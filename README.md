@@ -9,7 +9,7 @@ Part II: https://www.theodinproject.com/paths/foundations/courses/foundations/le
 To create an implementation of grade-school classic “rock paper scissors”. 
 
 ## Preview:
-<img src="https://github.com/iVuDang/The-Odin-Project-Rock-Paper-Scissors/blob/2efed9f19d562d406820e866c03bfbf5e1cda25a/RockPaperScissors-preview.png" width=75% height=75%>
+<img src="https://github.com/iVuDang/The-Odin-Project-Rock-Paper-Scissors/blob/2efed9f19d562d406820e866c03bfbf5e1cda25a/RockPaperScissors-preview.png" width=100% height=100>
 
 ### Technologies: 
 * JavaScript
